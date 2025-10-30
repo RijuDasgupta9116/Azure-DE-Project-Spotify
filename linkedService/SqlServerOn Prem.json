@@ -8,12 +8,12 @@
 			"database": "AdventureWorksLT2022",
 			"encrypt": "optional",
 			"trustServerCertificate": false,
-			"authenticationType": "Windows",
-			"userName": "bittu",
+			"authenticationType": "SQL",
+			"userName": "riju2",
 			"password": {
 				"type": "AzureKeyVaultSecret",
 				"store": {
-					"referenceName": "AzureKeyVault",
+					"referenceName": "AzureKeyVault1",
 					"type": "LinkedServiceReference"
 				},
 				"secretName": "password"
